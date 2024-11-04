@@ -22,7 +22,7 @@ MIDI files can be edited in a MIDI file editor of your choice. You probably need
 
 The piano needs to be connected to PC and have its drivers installed, so it shows up in MIDI devices (in Windows you can find your MIDI devices in Device Manager -> Software devices).
 
-*src/main/resources* includes example MIDI and configuration files.
+*example* directory includes example MIDI and configuration files.
 
 ## Configuration ##
 
