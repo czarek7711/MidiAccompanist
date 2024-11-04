@@ -10,7 +10,7 @@ In its current state it should work more or less with majority properly configur
 
 ## How it works - Preconfiguration ##
 
-Application requires the MIDI file to be multi-track, with one track dedicated to piano events and other for accompaniment.
+Application requires the MIDI file to be multi-track, with one track dedicated to piano events and others to accompaniment.
 
 The piano track should contain notes you're expected to play.
 
@@ -40,7 +40,10 @@ Two configuration files need to be provided as arguments when running the applic
 ## Bulding and running ##
 
 1. Install Java 21 and one of the latest Maven 3.X.X releases.
-2. Run mvn clean package in the root directory.
+2. Build the application using Maven by running the following command in the directory with pom.xml file:
+```
+mvn clean package
+```
 3. Run built jar-with-dependencies jar file using Java. Example command, assuming configuration files are in the same location as the jar file:
 
 ```
