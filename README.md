@@ -22,6 +22,8 @@ MIDI files can be edited in a MIDI file editor of your choice. You probably need
 
 The piano needs to be connected to PC and have its drivers installed, so it shows up in MIDI devices (in Windows you can find your MIDI devices in Device Manager -> Software devices).
 
+*src/main/resources* includes example MIDI and configuration files.
+
 ## Configuration ##
 
 Two configuration files need to be provided as arguments when running the application:
@@ -39,7 +41,7 @@ Two configuration files need to be provided as arguments when running the applic
 
 1. Install Java 21 and one of the latest Maven 3.X.X releases.
 2. Run mvn clean package in the root directory.
-3. Run built jar-with-dependencies jar file using Java. Example command:
+3. Run built jar-with-dependencies jar file using Java. Example command, assuming configuration files are in the same location as the jar file:
 
 ```
 java -jar MidiAccompanist-0.1.0-jar-with-dependencies.jar applicationConfig.yaml midiFileConfig.yaml

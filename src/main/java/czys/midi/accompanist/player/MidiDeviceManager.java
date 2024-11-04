@@ -14,7 +14,7 @@ class MidiDeviceManager {
                 .map(this::getMidiDevice)
                 .filter(midiDevice -> isMidiInDevice ? midiDevice.getMaxReceivers() != 0 : midiDevice.getMaxTransmitters() != 0)
                 .findFirst()
-                .orElseThrow(() -> new ConfigurationException("Can't find Midi Device with name " + midiDeviceName));
+                .orElseThrow(() -> new ConfigurationException("Cannot find Midi Device with name " + midiDeviceName));
     }
 
     public void openResources(MidiDevice midiInDevice, MidiDevice midiOutDevice, Sequencer sequencer) throws MidiUnavailableException {
