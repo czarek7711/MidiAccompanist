@@ -42,7 +42,7 @@ Two configuration files need to be provided as arguments when running the applic
 3. Run built jar-with-dependencies jar file using Java. Example command:
 
 ```
-java -jar MidiAccompanist-0.1.0-jar-with-dependencies.jar config.yaml test.yaml
+java -jar MidiAccompanist-0.1.0-jar-with-dependencies.jar applicationConfig.yaml midiFileConfig.yaml
 ```
 Tested only on a Windows PC.
 

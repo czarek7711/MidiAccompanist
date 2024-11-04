@@ -1,0 +1,2 @@
+midiOutDeviceName: "YourPianoMIDIDevice"
+midiInDeviceName: "Microsoft GS Wavetable Synth"
